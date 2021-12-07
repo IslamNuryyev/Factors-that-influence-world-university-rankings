@@ -15,6 +15,7 @@
 
 <a name="id"></a>
 ### 1. Identification:
+
 Aanisha Newaz: https://github.com/Aanisha02 
 
 Jessica Patel: https://github.com/JessicaPatel711 
@@ -25,7 +26,9 @@ Japnit Ahuja: https://github.com/japnitahuja
 
 <a name="intro"></a>
 ### 2. Introduction:
+
 As university students, we all have done extensive research on which post secondary institute to attend to further our education. While choosing a university, some may look for the best faculties for their career and university experience, the top school with a great reputation nationwide, or an institute with a high rate of employment success. Some may even have a reason as simple as living close to their university. Nonetheless, researching about faculties and universities has become an interesting experience for most students.
+
 This is the mindset we’ve established once we found an interesting dataset to look more into, named World University Rankings, which was collected by Myles O'Neill and published on www.kaggle.com. This data set is a university ranking list formed from various sources, including the Science Citation Index Expanded, Social Sciences Citation Index, and the Arts & Humanities Citation Index. These indexes were used to help sort universities by their ranking and had a score for attributes and factors which may be linked to their ranking. Some attributes that were investigated are:
 -    National ranking – The rank of university within its country
 -    Quality of education – The rank for quality of education
@@ -60,6 +63,7 @@ We then tried analysing the correlation between the features and the world ranki
 ![image](https://user-images.githubusercontent.com/10168783/144968942-5894a624-82f3-47f5-8213-5e9e770bab18.png)
 
 Using the graph displayed above, we found that for 2012 and 2013, the top three correlated features were quality of faculty, citations and influence. This however did not reflect onto the data for 2014 and 2015, as the top three for those years were broad impact, publications and influence. This illustrates that an institution's ranking can be better predicted by their impact and influence in the academic world in terms of research and other avenues in 2014 and 2015 compared to 2012 and 2013, where the faculty and number of students were more important.
+
 Interesting trends to note are how the correlation of quality of faculty - which was one of the top three features in 2012 and 2013 - decreases over the years. This stood out to us since the correlation between all other features with the world ranking kept getting stronger over the years. This chart helped us look further into how different attributes affected the world ranking depending on the year, and this can be illustrated by noticing the effect of quality of faculty declining over the years.
 To find the attributes correlation and university ranking trend based on countries, we chose the top three of most ranked countries to study - the USA, China and Japan. Three unique heatmaps were constructed, one for each country to illustrate their universities’ ranking. An interesting observation that was found was China’s correlation heatmap and how China’s priority to university attributes did not follow the global trend. The quality of faculty had moderate to high positive correlation with other features for the global trend, but for China this feature showed low correlation with all other features. 
 
@@ -69,9 +73,11 @@ Once we discovered the yearly and national trends of the university rankings, we
 
 <a name="conc"></a>
 ### 4. Conclusion:
+
 Although the interest in this topic led us to studying this dataset, we were met with obstacles along with the knowledge. This report discussed the correlation between various attributes and factors that make education better with the world university ranking system. To reach the goal of understanding the trends of university education and institution ranking, we focused on the relations between different attributes with world rank, mainly how they change yearly and through one nation to another. This was done by constructing hue charts to see how different the world rank’s relation with different attributes rise and fall depending on the year. To view countrywide trends on university ranking, additional heatmaps were constructed, to which we discovered China's unique trend that did not follow the other top countries. Following this finding, we investigate why certain attributes have a stronger correlation to the world ranking than one another based on the year. This was done through external research, where we looked for reasons and factors to why certain universities were chosen to be in the top three, and for this research, we picked the United States. Through thorough research, we have concluded that  broad impact, influence, and publications have a high correlation with world ranking and have the  greatest influence when rolling out world university rankings. We successfully constructed graphs to display how they change throughout the years to better understand the yearly trends.
 
 ### Citations:
+
 Troyer, M. (2019, November 18). 25 ways American education has changed in the last decade. Stacker. Retrieved December 5, 2021, from https://stacker.com/stories/3665/25-ways-american-education-has-changed-last-decade?page=3. 
 
 Rabinovitz, J., & Rabinovitz, J. (2013, January 14). Stanford renames education school to emphasize its graduate research, Education. Stanford University. Retrieved December 5, 2021, from https://news.stanford.edu/news/2013/january/education-name-change-011413.html. 
