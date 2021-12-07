@@ -1,7 +1,20 @@
 
 # Factors that influence world university rankings
 
-### About us:
+##  Table of Contents 
+
+1. [ Identification. ](#id)
+2. [ Introduction. ](#intro)
+3. [ Discussion. ](#disc)
+4. [ Conclusion. ](#conc)
+5. [ Acknowledgements. ](#ack)
+6. [ Installation. ](#inst)
+7. [ Usage. ](#usage)
+8. [ Development/Contribution. ](#dev)
+9. [ License. ](#license)
+
+<a name="id"></a>
+### 1. Identification:
 Aanisha Newaz: https://github.com/Aanisha02 
 
 Jessica Patel: https://github.com/JessicaPatel711 
@@ -10,7 +23,8 @@ Islam Nuryyev: https://github.com/IslamNuryyev
 
 Japnit Ahuja: https://github.com/japnitahuja 
 
-### Introduction:
+<a name="intro"></a>
+### 2. Introduction:
 As university students, we all have done extensive research on which post secondary institute to attend to further our education. While choosing a university, some may look for the best faculties for their career and university experience, the top school with a great reputation nationwide, or an institute with a high rate of employment success. Some may even have a reason as simple as living close to their university. Nonetheless, researching about faculties and universities has become an interesting experience for most students.
 This is the mindset we’ve established once we found an interesting dataset to look more into, named World University Rankings, which was collected by Myles O'Neill and published on www.kaggle.com. This data set is a university ranking list formed from various sources, including the Science Citation Index Expanded, Social Sciences Citation Index, and the Arts & Humanities Citation Index. These indexes were used to help sort universities by their ranking and had a score for attributes and factors which may be linked to their ranking. Some attributes that were investigated are:
 -    National ranking – The rank of university within its country
@@ -23,8 +37,9 @@ This is the mindset we’ve established once we found an interesting dataset to 
 -    Patents – The rank for patents
 
 Finding out which attributes affect an institute’s world rank was done by constructing various visual graphs and data frames to help answer the major question - what affects the world university rankings and how does it change throughout the years? Are there any attributes that correlate to the world ranking and if there are, how are they correlated?
- 
-### Discussion:
+
+<a name="disc"></a>
+### 3. Discussion:
 
 Seeking an answer lead us to finding out both expected and unexpected results. Our initial goal was to learn about the general ranking system, and how each factor affected one another. The World University Dataset looks at a total of 1024 universities from 59 different countries, the top three countries with the most ranked universities being the United States, China, and Japan. With the use of ten unique attributes, the primary objective to help us reach a conclusion was to find out what kind of relationship each attribute had with the world ranking of the institute and one another. As a solution, we constructed a correlation heatmap to aid us with getting results, looking for positive correlations (closer to 1 or cooler hue), negative correlations (closer to -1 or warmer hue) or a weak correlation (low saturated areas).
 
@@ -52,7 +67,8 @@ To find the attributes correlation and university ranking trend based on countri
 
 Once we discovered the yearly and national trends of the university rankings, we decided to observe how the ranking of the top country varies over time depending on governmental educational policies/reforms. Since the United States of America is the country with the most number of universities ranked we decided to analyze its top three ranked universities. The top three American universities were also at the top of the list for world ranking.  For the year 2012 the top 3 universities for USA are also the top three in the world which are Harvard University with an international ranking of 1, Massachusetts Institute of Technology placing second, and Stanford University placing third.  This was the year that America had a 400 million dollar expansion for the Race To The Top program. The amount of money the American government spends to keep students in school and the amount of money universities spend on their students could be one of the reasons why America is the country with the most top universities.  The year 2013 was the year that Stanford university placed second internationally and nationally leaving Massachusetts Institute of Technology to place third. The reason Stanford was able to place second is because it had a greater influence and more popularity that year because 11 of the 100 most-influential educational scholars were from the Stanford Graduate School. From previous analysis we know that influence, publications and citations have a great influence on determining the university rankings. Therefore, the reason Stanford ranked higher than MIT is because it ranked higher in many other attributes that have a high correlation with the world ranking. The year 2014 was the year that America implemented the Common Core State Standards initiative however not much had changed for universities which is why the rankings are the same.  Harvard ranks highest in all attributes which is why it is the top-ranked university. We can see that Stanford ranks lower than MIT in some attributes but the ones that correlate strongly to the world ranking Stanford ranks higher than MIT. We can observe the same trend as 2013-2014 in 2015. 
 
-### Conclusion:
+<a name="conc"></a>
+### 4. Conclusion:
 Although the interest in this topic led us to studying this dataset, we were met with obstacles along with the knowledge. This report discussed the correlation between various attributes and factors that make education better with the world university ranking system. To reach the goal of understanding the trends of university education and institution ranking, we focused on the relations between different attributes with world rank, mainly how they change yearly and through one nation to another. This was done by constructing hue charts to see how different the world rank’s relation with different attributes rise and fall depending on the year. To view countrywide trends on university ranking, additional heatmaps were constructed, to which we discovered China's unique trend that did not follow the other top countries. Following this finding, we investigate why certain attributes have a stronger correlation to the world ranking than one another based on the year. This was done through external research, where we looked for reasons and factors to why certain universities were chosen to be in the top three, and for this research, we picked the United States. Through thorough research, we have concluded that  broad impact, influence, and publications have a high correlation with world ranking and have the  greatest influence when rolling out world university rankings. We successfully constructed graphs to display how they change throughout the years to better understand the yearly trends.
 
 ### Citations:
@@ -64,42 +80,13 @@ A look at how American legislation has changed education in the last 15 years: R
 
 Education policy in the United States. Ballotpedia. (n.d.). Retrieved December 5, 2021, from https://ballotpedia.org/Education_policy_in_the_United_States. 
 
+<a name="ack"></a>
+#### 5. Acknowledgments
 
-
-
-##  Table of Contents 
-
-1. [ Identification. ](#id)
-2. [ Overview. ](#overview)
-3. [ Introduction. ](#intro)
-4. [ Installation. ](#inst)
-5. [ Usage. ](#usage)
-6. [ Development/Contribution. ](#dev)
-7. [ License. ](#license)
-
-<a name="id"></a>
-## 1. Identification
-
-Team: Aanisha Newaz, Japnit Ahujha, Islam Nuryyev, Jessica Patel
-
-<a name="overview"></a>
-## 2. Overview
-For this we will demonstarte analytical and programming skills by performing and reporting data 
-analysis on a world univeristy ranking dataset.
-
-1. Programming skills are demonstrated by a Python jupyter notebook containing 
-the data processing.
-
-2. Analytical skills are demonstrated by a writte
-
-<a name="intro"></a>
-## 3. Introduction
-
-The main focus for this analysis is to determine what affects the world univeristy rankings and how does it change through out the years. Are there any attributes that correlate to the world ranking and if there are how are they correlated. We also touched base on how national trends vary over time depending on governmental educational policies/reforms.
-
+“This project was submitted as the final course project for CSCI 2000U “Scientific Data Analysis” during Fall 2021. The authors certify that the work in this repository is original and that all appropriate resources are rightfully cited.”
 
 <a name="inst"></a>
-## 4. Installation
+## 6. Installation
 
 You can find the installation documentation for the [Jupyter platform, on ReadTheDocs](https://jupyter.readthedocs.io/en/latest/install.html). The documentation for advanced usage of Jupyter notebook can be found [here](https://jupyter-notebook.readthedocs.io/en/latest/).
 
@@ -108,7 +95,7 @@ For a local installation, make sure you have [pip installed](https://pip.pypa.io
     $ pip install notebook
 
 <a name="usage"></a>
-## 5. Usage
+## 7. Usage
 
 ### Running in a local installation
 
@@ -121,12 +108,12 @@ Launch with:
 You need some configuration before starting Jupyter notebook remotely. See [Running a notebook server.](https://jupyter-notebook.readthedocs.io/en/stable/public_server.html)
 
 <a name="dev"></a>
-## 6. Development/Contribution
+## 8. Development/Contribution
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 <a name="license"></a>
-## 7. License
+## 9. License
 
 Licensed under the [MIT License](LICENSE)
 
