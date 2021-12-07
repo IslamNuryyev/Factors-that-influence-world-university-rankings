@@ -83,7 +83,7 @@ Education policy in the United States. Ballotpedia. (n.d.). Retrieved December 5
 <a name="ack"></a>
 #### 5. Acknowledgments
 
-“This project was submitted as the final course project for CSCI 2000U “Scientific Data Analysis” during Fall 2021. The authors certify that the work in this repository is original and that all appropriate resources are rightfully cited.”
+This project was submitted as the final course project for CSCI 2000U “Scientific Data Analysis” during Fall 2021. The authors certify that the work in this repository is original and that all appropriate resources are rightfully cited. 
 
 <a name="inst"></a>
 ## 6. Installation
